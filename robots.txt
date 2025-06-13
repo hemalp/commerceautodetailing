@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Or to be more specific, just allow the pages you want accessible:
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+Allow: /portfolio/
