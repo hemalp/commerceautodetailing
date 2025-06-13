@@ -1133,6 +1133,57 @@
                     gap: 0.5625rem;
                 }
             }
+        .slideshow-container {
+            max-width: 800px;
+            position: relative;
+            margin: auto;
+            background: #f1f1f1;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            top: 50%;
+	    transform: translateY(-50%);
+	    width: 50px;
+	    height: 50px;
+            padding: 0;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background: rgba(0,0,0,0.5);
+            border: none;
+	    border-radius: 50%;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .prev:hover, .next:hover {
+            background: rgba(0,0,0,0.8);
+        }
+
+        .dots {
+            text-align: center;
+            padding: 20px;
+        }
         </style>
         <noscript>
             <style>
@@ -1203,34 +1254,37 @@
                         </div>
                         <p id="text04">Premium Hand Car Wash &amp;Detailing Services in the heart of Downtown Toronto &#39;s Financial District</p>
                         <hr id="divider02">
-                        <p id="text02">18 Wellington Street W. Toronto Ontario</p>
+                        <p id="text02" href="https://maps.app.goo.gl/kVHKng9tSxFeC8Up8">18 Wellington Street W. Toronto Ontario</p>
                     </section>
                     <section id="about-section">
-                        <h1 id="text05">Portfolio</h1>
-			<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-			<div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
-			  data-link="https://photos.google.com/share/AF1QipMNnBcuHu2jm88v_Ux0GlhemiTWHoSJ6tLCEUg8UA-Zk9qqk0GJmxOcySg30G9Wug/memory/AF1QipMqtcoSuipYYGuJezbZ7qArntZyUD1QRLtN1sWRsifSgN4ULmIRpIqNSYkQCFgVag?key=TGg0SjVpN1V0aW5aVGM0UU5ZU1EyUUFZRTBXRzJn"
-			  data-title="Commerce Auto Detailing"
-			  data-description="15 new items · Memory by Hemal Patel"
-			  data-delay="2"
-			  data-background-color="#ffffff">
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczOggRVRqvNYtIf6Bz2bHrYSymkwDJTsiGVUWy2i2zTOq68ycAEmYaiY5sQGfW4Yki8stas_tD2VMg-7D1msVtJhhhudfNZjnOIFXbcettnMDZvvW2w=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczNbEkJwiGFs2AVnlBKva0MFMFsHiyz7K9fkmbF5tdfffDiwogj7wYSrm1YJ3Z80Iblp_KmJV06hSOPl9FIhEN6WExZ6dBnUDbwQ8GnDOjsLVjRxL_s=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczPdwbwHG02SVEhRowdA9ENRwkIOAVjziUwf4xJ3uULEJxG7_v7EW8f_4gNuFCT5eDWB9RIOn8cotr2qSUFpnnT3GbREF8Ar9Roq5zxnpvKIZWgbLM4=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczPP075CMSa3VtpKysucjuKjTpt2K70Z26fLSYr8udv4exgTbKnDRlJSHqegdEDlCUy_7GFj4liEGHSLVWK5FPCYVxPUergXetTAaBTgpa_XHxTIZ1g=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczOPXD3o27Xnh6l2ddI4GAsCZ1NsOEbr__ZuyBd2apIiEdZYbQOwj4lF2G26swcz8t7qO3i6Jt_PwlwtaibWn5flf3MoGazh8veg91qfO1zi9L_1k2k=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczMeI2thUcrtrLDRvUvZuDTSI_QtHkUSFXs3H30fpsdxAka03inp8nUJky9Xn14Ezkglo4VuqaWBepkW4AVTzRX7RGJ30wzvnLbJBhpah8z43ypfRsU=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczOo1uax1ZQLQPFWExSp2SaH8w7Q888kA7gZY8rnUPa2n4bWAwQjL2ddJKLW64euiEEhp3HU84-ucGuov23rj72n6o5jrPwCsieFM1t9-8-w2ujr1Hg=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczNqRhFqxv9-vws7KnUtYK3foNgKEmJq0sP8h1TGoM1AHk-yRBc6FK6wFj1H6SGHrXK7weR24O_9OgczXQagi5-kp_RvzKakGRQvFGW7-6pr9sQpdZo=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczNsUZthQq6CKJDZ5_oBehl2BzXks79gjNaT5bEdqoTbkW0IXury-ny-eXAl_8AkwWVYMZjtnUveYbqqF_0qvdGoi3GCFFh_gvbt99q5jbnlKdppXek=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczMNqLeP3sTW1pE773V5GjWt79IYmMnC4rtea1o8gCFmiliEXHK67pklkt4hrJbikz7M77VM37WB7VpknNOv0inPhL7XIrENQG7fIThFdru3fpMamYM=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczPK0BMgJ1MI-El8OzYejZ4COFIPF2EW9JUseHSkyriri84zfxFNKnWBJ9n4V9YC07Q6JD1Ox3LarsDE1QNStkHWm82yPo8C84dphC9zK3V7PnAP3Jc=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczOvPmYFxSGT8Z81bQr6PA3Q2s-bHXL0qOh9hvJnnT2W9w4FEqrZR7aX4rCvIePyMOPdlaX6-6cyCsB9BGnovEOAX3DSElyJ3xBH-lg5xqpmMl7sPxc=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczMBgTyxXc0KBr_msguANUL_oxicY3Jc5IsxWcVIxcFie_FPOIBwDrj8HKvfkV5AyAWMLBH2isYCMOFZO_VZAQTxyHDnnXTW2XqGZCOI3z2j-LqxiCU=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczPbzGz7m0R2NTvCtQTJqbrdlGx_YVIsjT0UDPsYt_-osvvv2q22E26oyEep0E0qzwMXP1GrDZc1Xw-aAfP6hznuapDy_WldTu6M5vnUO6Jco9aCDCU=w1920-h1080"></object>
-			  <object data="https://lh3.googleusercontent.com/pw/AP1GczPIx2rnIoo42UHy-HXu9ZgPqGq0NSV_-O8PcL5EWzp2VPXn0uC2wWUj4KKOJmMIzZ6w3-VqZC9yZBU1Jtly96Z7nawZ2bkl0YCXzVPGwyxx4Ii4sz4=w1920-h1080"></object>
-			</div>
-			</section>
+                    <h1 id="text05">Portfolio</h1>
+		    <div class="slide active">
+			<img src="assets/IMG_6206.jpg" alt="Photo 1">
+		    </div>
+		    
+		    <div class="slide">
+			<img src="assets/IMG_6690.jpg" alt="Photo 1">
+		    </div>
+		    
+		    <div class="slide">
+			<img src="assets/IMG_4044.jpg" alt="Photo 1">
+		    </div>
+		    
+		    <div class="slide">
+			<img src="assets/IMG_9001.jpg" alt="Photo 1">
+		    </div>
+
+		    <!-- Navigation arrows -->
+		    <button class="prev" onclick="changeSlide(-1)">❮</button>
+		    <button class="next" onclick="changeSlide(1)">❯</button>
+		    <!-- Dots for navigation -->
+		    <div class="dots">
+		    <span class="dot active" onclick="currentSlide(1)"></span>
+		    <span class="dot" onclick="currentSlide(2)"></span>
+		    <span class="dot" onclick="currentSlide(3)"></span>
+		    <span class="dot" onclick="currentSlide(4)"></span>
+		    </div>
+		    </section>
                     <footer id="footer">
                         <hr id="divider03">
                         <ul id="icons01" class="icons">
@@ -1253,7 +1307,7 @@
 					</a>
 				    </li>
 			     <li>
-                                <a class="n03" href="https://maps.app.goo.gl/kZo4WBzixPG29vr19?g_st=com.google.maps.preview.copy" role="button">
+                                <a class="n03" href="https://maps.app.goo.gl/kVHKng9tSxFeC8Up8" role="button">
                                     <svg aria-labelledby="icons01-icon-3-title">
                                         <title id="icons01-icon-3-title">Location</title>
                                         <use xlink:href="#icon-4c36dea559df9f4384b432ac3c2dbf36"></use>
@@ -2155,6 +2209,41 @@
 			ready.run();
 		    }
 		    )();
+		</script>
+		<script>
+		let slideIndex = 1;
+
+		function changeSlide(n) {
+		    showSlide(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		    showSlide(slideIndex = n);
+		}
+
+		function showSlide(n) {
+		    let slides = document.querySelectorAll('.slide');
+		    let dots = document.querySelectorAll('.dot');
+		    
+		    if (n > slides.length) {slideIndex = 1}
+		    if (n < 1) {slideIndex = slides.length}
+		    
+		    for (let i = 0; i < slides.length; i++) {
+			slides[i].classList.remove('active');
+		    }
+		    
+		    for (let i = 0; i < dots.length; i++) {
+			dots[i].classList.remove('active');
+		    }
+		    
+		    slides[slideIndex-1].classList.add('active');
+		    dots[slideIndex-1].classList.add('active');
+		}
+
+		// Auto-advance slides every 5 seconds
+		setInterval(() => {
+		    changeSlide(1);
+		}, 5000);
 		</script>
 	    </body>
 	</html>
